@@ -104,7 +104,7 @@ namespace FileExercises
         {
             Directory.CreateDirectory(@"contacts");
 
-            //Make 3 contacts
+            //Make bob, fred, and jane contacts
             Contact bob = new Contact("Bob", "bob@email.com", 10000);
             Contact fred = new Contact("Fred", "Fred@email.com", 10001);
             Contact jane = new Contact("Jane", "Jane@email.com", 10002);
